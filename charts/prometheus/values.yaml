@@ -321,6 +321,11 @@ server:
   ##
   affinity: {}
 
+  ## Pod topologySpreadConstraints settings
+  ## Ref: https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/
+  ##
+  topologySpreadConstraints: {}
+
   ## PodDisruptionBudget settings
   ## ref: https://kubernetes.io/docs/concepts/workloads/pods/disruptions/
   ##
